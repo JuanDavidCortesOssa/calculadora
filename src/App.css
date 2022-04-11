@@ -9,14 +9,14 @@ body {
   height: 100%;
 }
 
-.BodyGrid
+.CalculatorGrid
 {
   display: grid;
   justify-content: center;
   align-content: center;
   min-width: 80vw;
 
-  grid-template-columns: repeat(4, 80px);
+  grid-template-columns: repeat(4, 120px);
   grid-template-rows: repeat(6, 60px);
 }
 

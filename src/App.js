@@ -13,7 +13,6 @@ function App()
 
   function ClickOperator(operator)
   {
-    
     if((operation == "" && operator != '-') || mathOperators.includes(operation.slice(-1)))
     {
       return;
@@ -29,12 +28,11 @@ function App()
   function clearResult()
   {
     setOperation("");
-    
   }
 
   return (
     <div className="App">
-      <div className='BodyGrid'>
+      <div className='CalculatorGrid'>
         <div className='Result'>
           <a>{operation || "0"}</a>
         </div>
