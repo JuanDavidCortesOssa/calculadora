@@ -1,5 +1,18 @@
 import './App.css';
 import React, {useState} from "react"
+import { initializeApp } from 'firebase/app';
+import { } from 'firebase/auth';
+
+const FIREBASE_TOKEN = 
+05mXwPxTluH25CgYIARAAGAUSNwF-L9IrdgsxdjmCvDIqEp5H0NXfb6xJUMZFf2IU2URfWz_NruqW1OW62TPUjMYC1gRshc5yKHA;
+
+
+const firebaseConfig = 
+{
+    
+};
+
+const app = initializeApp(firebaseConfig);
 
 function App() 
 {
